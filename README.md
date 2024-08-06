@@ -1,0 +1,1 @@
+# lattam-training-footer
