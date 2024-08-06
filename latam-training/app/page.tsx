@@ -106,10 +106,10 @@ export default function Home() {
           className="md:w-[1220px] md:h-[68px] min-w-[393px] border-t-[1px]  border-[#D4D2E3]
 border-solid md:flex md:flex-row grid items-center md:mt-[3.5rem] mt-[23rem] md:items-center"
         >
-          <p className="md:w-[442px] font-DM_Sans md:size-[18px] min-w-[368px]  text-[#727272] md:basis-[50%]  leading-[14.99px]flex-nowrap  text-[15px] md:text-[18px] text-center order-2 md:order-1 mt-[1.2rem] md:mt-0">
+          <p className="md:w-[442px] font-DM_Sans md:size-[18px] min-w-[368px]  text-[#727272] md:basis-[50%]  leading-[14.99px]flex-nowrap  text-[15px] md:text-[18px] text-center md:text-left order-2 md:order-1 mt-[1.2rem] md:mt-0">
             Copyright © 2024 Traning Latam | All Rights Reserved
           </p>
-          <div className=" md:basis-[50%]  flex justify-center mt-4 md:mt-0 order-1 md:order-2">
+          <div className=" md:basis-[50%]  flex md:justify-end justify-center  mt-4 md:mt-0 order-1 md:order-2">
             <div className="md:w-[244px] w-[366px] md:h-[36px] h-[54px] flex gap-x-[1rem] justify-center">
               <Link href={""}>
                 <Image
